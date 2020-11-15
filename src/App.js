@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Weather from "./weather.js";
-import Loader from 'react-loader-spinner'
+
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <h1>Hello Vera! Great Job!</h1>
+        <h1>Hello Vera! Great Job! This is awesome!</h1>
         <Weather city="Manila"/>
         <a
           className="App-link"
