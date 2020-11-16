@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Weather from "./weather.js";
+
 import Search from "./Search.js";
 
 function App() {
@@ -19,19 +19,18 @@ function App() {
         <a href="#" className="fahrenheit">
           °F
         </a>
-    
       </div>
         <img
           src="https://www.publicdomainpictures.net/pictures/310000/velka/orange-circle.png"
           alt="clear"
           className="icon"
         /><div>
-        <Weather/>
+       
 
       </div>
       <br />
       <h5>
-        <a href="https://github.com/remyq7/React" alt="GitHUb page">
+        <a href="https://github.com/remyq7/weather-app-react-final" alt="GitHUb page">
           Open-source code by{" "}
         </a>
         Vera Malanyaon
