@@ -3,8 +3,6 @@ import './App.css';
 import Weather from "./weather.js";
 import Search from "./Search.js";
 
-
-
 function App() {
   return (
     <div className="search">
@@ -18,10 +16,8 @@ function App() {
           className="icon"
         />
 
-        
       </div>
       <br />
-     
       <h5>
         <a href="https://github.com/remyq7/React" alt="GitHUb page">
           Open-source code by{" "}
@@ -30,9 +26,6 @@ function App() {
       </h5>
     </div>
   );
-      
-      
-   
 }
 
 export default App;
