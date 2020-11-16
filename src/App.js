@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Weather from "./weather.js";
-import '/index.css';
+import Search from "./Search.js";
+
 
 
 function App() {

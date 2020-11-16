@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+body {
+  background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+  background-size: 200%;
+}
+.Search {
+  text-align: center;
+  margin-top: 10px;
+}
+.button {
+  display: inline;
+  margin: 15px;
+}
+
+h1 {
+  font-family: "Dancing Script";
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+  background: #f56a8e;
+}
+.card {
+  margin: 20px 300px;
+}
+h2 {
+  text-align: center;
+  color: #2276b7;
+}
+
+.icon {
+  display: block;
+  margin: 0 auto;
+  max-width: 50px;
+}
+
+.Temperature {
+  text-align: center;
+  color: #1e79cb;
+  margin: 10px auto;
+  text-decoration: none;
+}
+
+.Forecast {
+  list-style: none;
+  color: #124069;
+  padding: 0;
+  margin: 0px;
+  text-align: center;
+  position: center;
+}
+
+h5 {
+  text-align: right;
+  margin: 20px;
+  color: #662436;
+}
