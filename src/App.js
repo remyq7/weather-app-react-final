@@ -11,22 +11,14 @@ function App() {
       <div className="card">
         <h2>Monday, 10:22,</h2></div>
         
-    <div className="Temperature">
-        <a href="#" className="celsius">
-          °C{" "}
-        </a>
-        |{" "}
-        <a href="#" className="fahrenheit">
-          °F
-        </a>
+    <div className="Temperature">     
+          °C{" "} |{" "} °F
       </div>
         <img
           src="https://www.publicdomainpictures.net/pictures/310000/velka/orange-circle.png"
           alt="clear"
           className="icon"
         /><div>
-       
-
       </div>
       <br />
       <h5>
@@ -38,5 +30,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
