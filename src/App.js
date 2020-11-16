@@ -20,6 +20,8 @@ function App() {
           className="icon"
         /><div>
       </div>
+      <div className="Forecast">
+        This is the forecast</div>
       <br />
       <h5>
         <a href="https://github.com/remyq7/weather-app-react-final" alt="GitHUb page">
