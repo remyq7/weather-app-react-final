@@ -10,11 +10,11 @@ export default function App() {
             <h1>New York City</h1>
           </div>
   
-      <h5>
+      <p>
         Open-source code by{" "}
         <a href="https://github.com/remyq7/weather-app-react-final" target="_blank" rel="noreferrer" alt="GitHUb page">
         Vera Malanyaon </a> 
-      </h5>
+      </p>
     </div>
     
   );
