@@ -22,20 +22,12 @@ export default function Weather(props) {
          placeholder="Type city here" 
          className="form-control" 
          autofocus="on" />
-        
-         </div>
+      <button type="button" class="btn btn-primary">Search</button></div>
        </div>
-       
-      
-      <button type="button" class="btn btn-primary">Search</button>
     </form>
      </div> 
     )
 
-
-  const [city, setCity] = useState(" ");
-  const [result, setResult] = useState(false);
-  const [weather, setWeather] = useState({});
 
   function showWeather(response) {
     setResult(true);
@@ -48,39 +40,4 @@ export default function Weather(props) {
     });
   }
 
-  function handleSubmit() {
-    let url = `https://api.openweathermap.org/data/2.5/weather?q=
-    ${city}&units=metric&appid=df00ce6442112c0f15afa927a09d9e5a`;
-    axios.get(url).then(showWeather);
-  }
-
-  function newCity(event) {
-    setCity(event.target.value);
-  }
-  let form = (
-    
-  );
-  if (result) {
-    return (
-      <div class="Temperature">
-        {form}
-        <ul>
-          <li>Temperature: {Math.round(weather.temperature)}°C</li>
-          <li>Description: {weather.description}</li>
-          <li>Humidity: {weather.humidity}%</li>
-          <li>Wind: {weather.wind}km/h</li>
-          <li>
-            <img src={weather.icon} alt={weather.description} />
-          </li>
-        </ul>
-      </div>
-    );
-  } else {
-    const apiKey="df00ce6442112c0f15afa927a09d9e5a";
-    let city="New York";
-    let apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=
-    ${city}&units=metric&appid=${apiKey}`;
-    axios.get(apiUrl).then(showWeather);
-    return form;
-  }
-}
+  
