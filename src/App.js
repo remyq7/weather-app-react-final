@@ -6,6 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
+        <Search defaultCity="New York"/>
         <form id="city-form">
           <div className="row">
             <div className="col-9">
@@ -22,9 +23,10 @@ export default function App() {
                 className="btn btn-primary w-100"
               />
             </div>
+            <h1>New York City</h1>
           </div>
         </form>
-        <Search defaultCity="New York"/>
+        
       <br />
       <h5>
         Open-source code by{" "}
