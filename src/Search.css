@@ -3,7 +3,8 @@
   border: 1px solid #dadde1;
   padding: 16px;
   border-radius: 4px;
-  color: rgb(135, 135, 135);
+  color: #7154b0;
+  font-size: 23px;
 }
 
 .Weather h1 {
@@ -13,7 +14,7 @@
   background: #f56a8e;
   font-size: 50px;
   font-weight: 100;
-  margin: 20px 0 0 0;
+  margin: 20px 0 20px 0;
 }
 
 .Weather ul {
