@@ -6,4 +6,16 @@
 .App footer {
   font-size: 11px;
   margin: 10px 0;
+  color: #662436;
+}
+body {
+  background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+  background-size: 450%;
+}
+
+.defaultCity {
+  font-family: "Dancing Script";
+  color: #fff;
+  margin-top: 10px;
+  background: #f56a8e;
 }
