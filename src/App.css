@@ -2,14 +2,6 @@ body {
   background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
   background-size: 200%;
 }
-.search {
-  text-align: center;
-  margin-top: 10px;
-}
-.button {
-  display: inline;
-  margin: 15px;
-}
 
 h1 {
   font-family: "Dancing Script";
@@ -18,9 +10,11 @@ h1 {
   margin-top: 10px;
   background: #f56a8e;
 }
+
 .card {
   margin: 20px 300px;
 }
+
 h2 {
   text-align: center;
   color: #2276b7;

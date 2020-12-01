@@ -1,0 +1,17 @@
+.search {
+  text-align: center;
+  margin-top: 10px;
+}
+.button {
+  display: inline;
+  margin: 15px;
+}
+
+.Forecast {
+  list-style: none;
+  color: #124069;
+  padding: 0;
+  margin: 0px;
+  text-align: center;
+  position: center;
+}
