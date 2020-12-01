@@ -3,7 +3,7 @@ import Date from "./Date";
 import Icon from "./Icon";
 import Temperature from "./Temperature";
 
-export default function Conversion(props) {
+export default function Info(props) {
   return (
     <div className="Info">
       <h1>{props.data.city}</h1>
