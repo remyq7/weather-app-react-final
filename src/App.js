@@ -7,7 +7,6 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Search defaultCity="New York"/>
-        
       <br />
       <h5>
         Open-source code by{" "}
