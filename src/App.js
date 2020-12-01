@@ -13,7 +13,7 @@ export default function App() {
         <h2>Monday, 10:22,</h2></div>
         
     <div className="Temperature">     
-          °C{" "} |{" "} °F
+          <strong>°C{" "} </strong>|{" "} °F
       </div>
         <img
           src="https://www.publicdomainpictures.net/pictures/310000/velka/orange-circle.png"
