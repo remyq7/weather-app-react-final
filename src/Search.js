@@ -5,6 +5,7 @@ import "./Icon.js";
 import "./Date.js";
 import "./Temperature.js";
 import "./Conversion.js";
+import "./Forecast.js";
 import "bootstrap/dist/css/bootstrap.css";
 
 export default function Weather(props) {
