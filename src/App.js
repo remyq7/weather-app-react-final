@@ -1,12 +1,17 @@
 import React from "react";
 import './App.css';
 import Search from "./Search.js";
+import Forecast from "./Forecast.js";
+import Info from "./Info.js";
+
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
         <Search defaultCity="New York"/>
+        <Info defaultCity="New York"/>
+        <Forecast defaultCity="New York"/>
       <br />
       <h5>
         Open-source code by{" "}
