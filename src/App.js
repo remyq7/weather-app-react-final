@@ -13,7 +13,7 @@ export default function App() {
             open-sourced on GitHub
          </a>    and{" "}
           <a
-            href="https://suspicious-beaver-111c4d.netlify.com/"
+            href="https://tender-neumann-2ce604.netlify.app/"
             target="_blank"
             rel="noreferrer"
             alt="Netlify page"
