@@ -64,23 +64,7 @@ export default function Weather(props) {
       </div>
     );
   } else {
-    search();
-    return (
-    <div className="row">
-            <div className="col-9">
-              <input
-                type="search"
-                placeholder="Type City here"
-                className="form-control"
-                autoFocus="on"/>
-            </div>
-            <div className="col-3">
-              <input
-                type="submit"
-                value="Search"
-                className="btn btn-primary w-100"
-              />
-            </div></div>);
-            
+		search();
+		return "The current weather is loading";
   }
 }

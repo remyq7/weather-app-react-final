@@ -12,7 +12,7 @@ export default function App() {
   
       <h5>
         Open-source code by{" "}
-        <a href="https://github.com/remyq7/weather-app-react-final" alt="GitHUb page">
+        <a href="https://github.com/remyq7/weather-app-react-final" target="_blank" rel="noreferrer" alt="GitHUb page">
         Vera Malanyaon </a> 
       </h5>
     </div>
