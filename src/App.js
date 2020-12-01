@@ -26,8 +26,7 @@ function App() {
       <h5>
         <a href="https://github.com/remyq7/weather-app-react-final" alt="GitHUb page">
           Open-source code by{" "}
-        </a>
-        Vera Malanyaon
+        Vera Malanyaon </a>
       </h5>
     </div>
   );
