@@ -19,8 +19,7 @@ export default function Weather(props) {
     });
   }
 
-  function handleSubmit(event) {
-    event.preventDefault();
+  function handleSubmit() {
     let url = `https://api.openweathermap.org/data/2.5/weather?q=
     ${city}&units=metric&appid=df00ce6442112c0f15afa927a09d9e5a`;
     axios.get(url).then(showWeather);
