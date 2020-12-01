@@ -3,9 +3,10 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.css";
 import Search from "./Search.js";
 
-function App() {
+export default function App() {
   return (
     <div className="search">
+      <div className="container">
       <Search /> 
         <h1>New York City</h1>
       <div className="card">
@@ -29,6 +30,7 @@ function App() {
         Vera Malanyaon </a>
       </h5>
     </div>
+    </div>
   );
 }
-export default App;
+
