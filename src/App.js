@@ -9,7 +9,7 @@ export default function App() {
     <div className="search">
       <div className="container">
       <Search /> 
-      <Forecst/>
+      <Forecast/>
       <br />
       <h5>
         <a href="https://github.com/remyq7/weather-app-react-final" alt="GitHUb page">
