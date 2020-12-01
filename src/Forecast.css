@@ -1,9 +1,8 @@
-.Forecast {
+.WeatherForecast {
   text-align: center;
+  margin: 20px 0;
 }
-.Forecast canvas {
+
+.WeatherForecast canvas {
   display: block;
-  margin: 10px auto;
-  font-size: 30px;
-  color: #124069;
 }

@@ -1,22 +1,35 @@
 import React from "react";
-import './App.css';
-import Search from "./Search.js";
+import Weather from "./Search";
+import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Search defaultCity="New York"/>
-            <h1>New York City</h1>
-          </div>
-  
-      <p>
-        Open-source code by{" "}
-        <a href="https://github.com/remyq7/weather-app-react-final" target="_blank" rel="noreferrer" alt="GitHUb page">
-        Vera Malanyaon </a> 
-      </p>
+        <Weather defaultCity="New York" />
+
+        <footer>
+          This project was coded by{" "}
+          <a href="https://www.delac.io/" target="_blank">
+            
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/wecodeschool/react-weather-app"
+            target="_blank"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://suspicious-beaver-111c4d.netlify.com/"
+            target="_blank"
+          >
+            hosted on Netlify
+          </a>
+        </footer>
+      </div>
     </div>
-    
   );
 }
 

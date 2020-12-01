@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Info from "./Info";
-import Forecast from "./Forecast";
+import WeatherInfo from "./Info";
+import WeatherForecast from "./Forecast";
 import axios from "axios";
 import "./Search.css";
 
@@ -31,7 +31,7 @@ export default function Weather(props) {
   }
 
   function search() {
-    const apiKey = "df00ce6442112c0f15afa927a09d9e5";
+    const apiKey = "df00ce6442112c0f15afa927a09d9e5a";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
@@ -44,7 +44,7 @@ export default function Weather(props) {
             <div className="col-9">
               <input
                 type="search"
-                placeholder="Type City here"
+                placeholder="Enter a city.."
                 className="form-control"
                 autoFocus="on"
                 onChange={handleCityChange}
@@ -64,7 +64,7 @@ export default function Weather(props) {
       </div>
     );
   } else {
-		search();
-		return "The current weather is loading";
+    search();
+    return "Loading...";
   }
 }
