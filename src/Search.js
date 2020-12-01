@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Search.css";
+import "./Icon.js";
+import "./Date.js";
+import "./Temperature.js";
 import "bootstrap/dist/css/bootstrap.css";
 
 export default function Weather(props) {
@@ -58,11 +61,13 @@ export default function Weather(props) {
             </div>
           </div>
         </form>
-        
+        <Conversion data={weatherData}/>
+        <Forecast city={weatherData.city}/>
       </div>
     );
   } else {
     search();
-    return "Loading...";
+  return "Ready";
   }
 }
+    
