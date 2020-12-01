@@ -21,7 +21,6 @@ export default function Weather(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    let city="New York";
     let url = `https://api.openweathermap.org/data/2.5/weather?q=
     ${city}&units=metric&appid=df00ce6442112c0f15afa927a09d9e5a`;
     axios.get(url).then(showWeather);
@@ -52,6 +51,11 @@ export default function Weather(props) {
       </div>
     );
   } else {
+    const apiKey="df00ce6442112c0f15afa927a09d9e5a";
+    let city="New York";
+    let apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=
+    ${city}&units=metric&appid=${apiKey}`;
+    axios.get(apiUrl).then(handleSubmit);
     return form;
   }
 }
