@@ -1,14 +1,11 @@
+.App {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
 body {
   background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
   background-size: 200%;
-}
-
-.defaultCity {
-  font-family: "Dancing Script";
-  text-align: center;
-  color: #fff;
-  margin-top: 10px;
-  background: #f56a8e;
 }
 
 h1 {
@@ -16,13 +13,6 @@ h1 {
   color: #fff;
   margin-top: 10px;
   background: #f56a8e;
-}
-
-.container {
-  margin: 20px 300px;
-  padding: 10px;
-  font-size: 30px;
-  color: #1e79cb;
 }
 
 h5 {
