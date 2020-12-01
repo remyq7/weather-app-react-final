@@ -31,7 +31,7 @@ export default function Weather(props) {
   let form = (
     <form onSubmit={handleSubmit}>
       <input type="Search" placeholder="Type city here" onChange={newCity} />
-      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-primary">Search</button>
     </form>
   );
   if (result) {
