@@ -3,7 +3,7 @@ import ForecastPreview from "./ForecastPreview";
 import axios from "axios";
 import "./Forecast.css";
 
-export default function WeatherForecast(props) {
+export default function Forecast(props) {
   const [loaded, setLoaded] = useState(false);
   const [forecast, setForecast] = useState(null);
 
@@ -14,7 +14,7 @@ export default function WeatherForecast(props) {
 
   if (loaded && props.city === forecast.city.name) {
     return (
-      <div className="WeatherForecast row">
+      <div className="Forecast row">
         <ForecastPreview data={forecast.list[0]} />
         <ForecastPreview data={forecast.list[1]} />
         <ForecastPreview data={forecast.list[2]} />

@@ -3,9 +3,9 @@ import Date from "./Date";
 import Icon from "./Icon";
 import Temperature from "./Temperature";
 
-export default function WeatherInfo(props) {
+export default function Conversion(props) {
   return (
-    <div className="WeatherInfo">
+    <div className="Info">
       <h1>{props.data.city}</h1>
       <ul>
         <li>

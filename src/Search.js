@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Search.css";
-import "./Icon.js";
 import "./Date.js";
-import "./Temperature.js";
-import "./Conversion.js";
+import "./Info.js";
 import "./Forecast.js";
-import "bootstrap/dist/css/bootstrap.css";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -42,7 +39,7 @@ export default function Weather(props) {
 
   if (weatherData.ready) {
     return (
-      <div className="search">
+      <div className="Weather">
         <form onSubmit={handleSubmit}>
           <div className="row">
             <div className="col-9">
