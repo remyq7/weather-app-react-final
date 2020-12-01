@@ -28,7 +28,7 @@ export default function App() {
       <h5>
         <a href="https://github.com/remyq7/weather-app-react-final" alt="GitHUb page">
           Open-source code by{" "}
-        Vera Malanyaon </a>{""} and <a href="https://tender-neumann-2ce604.netlify.app" target="_blank"> hosted on Netlify</a>
+        Vera Malanyaon </a>and <a href="https://tender-neumann-2ce604.netlify.app" target="_blank"> hosted on Netlify</a>
       </h5>
     </div>
     </div>
