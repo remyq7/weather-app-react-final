@@ -1,7 +1,7 @@
 import React from "react";
-import Date from "./FormattedDate";
-import Icon from "./WeatherIcon";
-import Temperature from "./WeatherTemperature";
+import Date from "./Date";
+import Icon from "./Icon";
+import Temperature from "./Temperature";
 
 export default function WeatherInfo(props) {
   return (
